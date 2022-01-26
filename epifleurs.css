@@ -1,0 +1,364 @@
+:root{
+    --couleurPrimaire:#75876d;
+    --police : inter, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    --couleurEcriture : whitesmoke ;
+    --boxShadow : rgb(114, 108, 108) 2px 2px 2px;
+    --borderRadius : 10px ;
+    --marginBottom : 50px ;
+}
+body{
+    background-color: #bebebe;
+}
+
+
+header{
+    color:var(--couleurPrimaire) ;
+    font-family: inter, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 60px;
+    position: absolute;
+    -webkit-text-stroke:  black 0.5px  ;
+    width: 100%;  
+}
+
+.tete{
+    position: relative;
+    text-align: center;
+    height: 700px;
+    width: auto;
+    background-image: linear-gradient(rgba(255, 239, 216, 0.6),rgba(22, 31, 21, 0.6)), url("images/fondmagasin.jpg");
+    background-size: cover;
+    border-radius : var(--boxShadow);
+    
+}
+.cadre{
+    width: 100%;
+    height: auto;
+}
+.bienvenu{
+    position: absolute;
+    top: 1px;
+left: 1%;
+opacity: 0.8;
+background: transparent;
+    
+}
+
+.cat{
+    font-family: var(--police);
+    color: var(--couleurPrimaire);
+    font-size: 40px;
+    border-bottom: solid 3px var(--couleurPrimaire);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom : var(--marginBottom) ;
+} 
+
+.bloccatégorie{
+    border: solid 3px var(--couleurPrimaire) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5px;  
+    padding:0 ; 
+    font-family:var(--police);
+    color: var(--couleurPrimaire);
+    font-size: 40px;
+    text-align: center;
+    box-shadow: var(--boxShadow);
+    margin-bottom : var(--marginBottom) ;
+}
+.imgcat{
+    height: 210px;
+    width: auto;
+    border-bottom: 6px solid  var(--couleurPrimaire);
+
+}
+a:hover{
+    color: rgb(37, 92, 15);
+    text-decoration: unset;
+}
+#lienMail:link{
+    color: var(--couleurEcriture);
+}
+
+.liencatégorie{
+    color:var(--couleurPrimaire) ;
+}
+.livraison{ 
+    box-shadow: var(--boxShadow); 
+    border-radius: var(--borderRadius);
+    border: solid 3px var(--couleurPrimaire) ;
+    background-image: linear-gradient(rgba(137, 149, 126, 0.87),rgba(138, 149, 127, 0.87)), url("images/livraisonfond.jpg");
+    background-size: cover;
+    margin-bottom : var(--marginBottom);
+}
+.txtlivraison{
+    text-align: center;    
+    color: var(--couleurEcriture);
+    font-family: var(--police);
+}
+
+.logo{
+    width: 80%;
+    height: auto;
+    background: transparent;
+    margin-top: 50px;    
+    margin-left: 50px;
+}
+.log{
+    background: transparent;
+}
+.domicil{
+    margin: 0%;
+    background: transparent;
+    text-decoration: underline;
+    padding: 10px;
+}
+#Btn_Rappel{
+    opacity: 60%;
+    padding: 10px 20px  ;
+    border: 1px solid #000  ;
+    border-radius : var(--borderRadius);
+    box-sizing: border-box;
+    background-color: var(--couleurPrimaire)  ;
+    color:var(--couleurEcriture)  ;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width:auto;
+    margin: 10px;
+}
+#Btn_Envoyer{
+   
+    padding: 10px 20px  ;
+    border: 1px solid #000  ;
+    border-radius : var(--borderRadius);
+    box-sizing: border-box;
+    background-color: #616161  ;
+    color:var(--couleurEcriture)  ;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width:auto;
+    margin: 10px;
+}
+.alert{
+    background-color: yellow;
+}
+.calendrier{
+   display: none;
+   margin-bottom : var(--marginBottom);
+}
+.card {
+    box-shadow: 0px 4px 8px 0px var(--couleurPrimaire)
+}
+
+.datepicker{
+    padding: 10px 20px  ;
+    border: 1px solid #000  ;
+    border-radius : var(--borderRadius);
+    box-sizing: border-box;
+    background-color: #616161  ;
+    color: var(--couleurEcriture)  ;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 280px;
+    margin: 10px;
+}
+.datepicker1{
+    padding: 10px 20px  ;
+    border: 1px solid #000  ;
+    border-radius : var(--borderRadius);
+    box-sizing: border-box;
+    background-color: var(--couleurPrimaire)  ;
+    color:var(--couleurEcriture);
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 280px;
+    margin: 10px;
+}
+.datepicker:focus {
+    -moz-box-shadow: none  ;
+    -webkit-box-shadow: none  ;
+    box-shadow: none  ;
+    border: 1px solid #512DA8;
+    outline-width: 0
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 1
+}
+
+:-ms-input-placeholder {
+    color: #fff
+}
+
+::-ms-input-placeholder {
+    color: #fff
+}
+
+button:focus {
+    -moz-box-shadow: none  ;
+    -webkit-box-shadow: none  ;
+    box-shadow: none  ;
+    outline-width: 0
+}
+
+.datepicker {
+    background-color: var(--couleurPrimaire)  ;
+    color: #fff  ;
+    border: none;
+    padding: 10px  
+}
+
+.datepicker-dropdown:after {
+    border-bottom: 6px solid rgb(54, 50, 50)
+}
+
+thead tr:nth-child(3) th {
+    color: #fff  ;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px
+}
+
+.dow,
+.old-day,
+.day,
+.new-day {
+    width: 40px  ;
+    height: 40px  ;
+    border-radius: 0px  
+    
+}
+.dow,.day{
+    text-align: center;
+}
+.old-day:hover,
+.day:hover,
+.new-day:hover,
+.month:hover,
+.year:hover,
+.decade:hover,
+.century:hover {
+    border-radius: 6px  ;
+    background-color: #eee;
+    color: #000
+}
+
+.active {
+    border-radius: 6px  ;
+    background-image: linear-gradient(#90CAF9, #64B5F6)  ;
+    color: #000  
+}
+
+.disabled {
+    color: #616161  
+}
+
+.prev,
+.next,
+.datepicker-switch {
+    border-radius: 0  ;
+    padding: 20px 10px  ;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff  ;
+    opacity: 0.8
+}
+
+.prev:hover,
+.next:hover,
+.datepicker-switch:hover {
+    background-color: inherit  ;
+    opacity: 1
+}
+
+.cell {
+    border: 1px solid #BDBDBD;
+    border-radius: var(--borderRadius);
+    margin: 2px;
+    cursor: pointer
+}
+
+.cell:hover {
+    border: 1px solid var(--couleurPrimaire)
+}
+
+.cell.select {
+    background-color:var(--couleurPrimaire);
+    color: #fff
+}
+
+.fa-calendar {
+    color: #fff;
+    font-size: 30px;
+    padding-top: 8px;
+    padding-left: 5px;
+    cursor: pointer
+}
+.comment{
+    margin: 0%;
+    background: transparent;
+}
+.fondprésentation{ 
+    box-shadow: var(--boxShadow);
+    border-radius: 0.9em;
+    border: solid 3px var(--couleurPrimaire) ;
+    background-image: linear-gradient(rgba(137, 149, 126, 0.87),rgba(138, 149, 127, 0.87)), url("images/devanture.png");
+    background-size: cover;
+    margin-bottom : var(--marginBottom) ;   
+}
+
+.logo2{
+    width: 80%;
+    height: auto;
+}
+.horaires{
+    box-shadow: var(--boxShadow);
+    font-family: var(--police);
+    background-color:var(--couleurPrimaire) ;
+    border-radius : var(--borderRadius);
+    text-align:center;
+    width: 40%;
+    height: auto;
+    margin: auto;
+    color: var(--couleurEcriture);
+    margin-bottom : var(--marginBottom) ;
+}
+.liste{
+    list-style-type: none;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+.foot{
+    color: var(--couleurEcriture);
+    font-family: var(--police);
+    background-color: var(--couleurPrimaire);
+    border-radius : var(--borderRadius);
+    margin: auto;
+    
+}
+
+.lien{
+    list-style-type: none;
+    text-align: center;
+
+}
+.contact{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: larger;
+}
+.titlecontact{
+    text-decoration: underline;
+}
+.bi{
+    color: whitesmoke;
+}
+.imgcontact{
+    width: 70px;
+    
+}
+

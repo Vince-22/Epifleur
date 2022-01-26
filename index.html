@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Epifleurs</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="epifleurs.css">
+    
+</head>
+
+<body >
+    <header class="tete" >
+        <div class="cadre" > 
+            <!--immage de fond du magasin interieure-->
+            <div class="bienvenu">Bienvenu <br> Chez <br> Epifleurs  </div>  <!-- en haut a gauche -->
+        </div>
+    
+    </header>
+<div class="container ">
+    <div class="row justify-content-center">
+        <div class=" col-8  cat">
+            Nos catégories
+        </div>     
+    </div> 
+</div>
+
+    <!--catégorie-->
+    <div  class="container catégorie">
+        <div class="row row-cols-lg-5 justify-content-center" >
+
+            <div data-aos="flip-left" data-aos-duration="2000" class="col-10 col-md-6 col-lg-3">
+                <a href="EpifleurCharcuterie.html" class="liencatégorie" >
+                <div class="bloccatégorie">
+                    <img src="images/charcuterie.jpg" alt="fleurs" class="imgcat">  <p>Charcuterie</p>
+                </div>
+                </a> 
+            </div>
+            
+            <div data-aos="flip-left" data-aos-duration="2000" class="col-10 col-md-6 col-lg-3">
+                <a href="EpifleurFlorales.html" class="liencatégorie" >
+                <div class="bloccatégorie">
+                    <img src="images/fleurs.jpg" alt="fleurs" class="imgcat"> <p>florales</p>
+                </div>
+                </a>
+            </div>
+            <div data-aos="flip-left" data-aos-duration="2000" class="col-10 col-md-6 col-lg-3">
+                <a href="EpifleurFruits.html" class="liencatégorie" >
+                <div class="bloccatégorie">
+                    <img src="images/fruits.jpg" alt="fuits" class="imgcat"><p>fruits</p>
+                </div>
+                </a> 
+            </div>
+            <div data-aos="flip-left" data-aos-duration="2000" class="col-10 col-md-6 col-lg-3">
+                <a href="EpifleurLégumes.html" class="liencatégorie" >
+                <div class="bloccatégorie">
+                    <img src="images/légumes.jpg" alt="légumes" class="imgcat"> <p>légumes</p> 
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--livraison a domicile-->
+<div data-aos="zoom-in-down" data-aos-duration="1000" class="container livraison" id="livraison">
+        <!-- logo livraison a droite , texte a gauche , image de fond livraison --> 
+    <div class="row p-3 justify-content-center">
+        <div class="col-8 col-sm-6 col-md-6 col-lg-6 txtlivraison">
+            <h1 >livraison à domicile ?</h1> <br>
+            <h2>comment ça marche</h2> <br>
+            appelez-nous au 02.38.39.02.09 <br> afin  de nous communiquer <br> directement votre liste de course ! <br> Vous préfériez être rappelé <br> à une horaires précise ? <br> Alors remplissez notre formulaire en ligne ! <br>
+            <input type="button" value="Rappelez-moi" id="Btn_Rappel">
+        </div>
+        <div class="col-8 col-sm-8 col-md-6 col-lg-6 log">
+            <img class="logo" src="images/livraisonlogo.png" alt="logo"><!--logo-->
+            <!--image fond livraison-->
+        </div>
+    </div>
+</div>
+<!-- calendrier et plage horaire avec formilaire a remplire  afin de ce faire rappelez -->
+<div class="container-fluid px-0 px-sm-4 mx-auto calendrier">
+    <div class="row justify-content-center mx-0">
+        <div class="col-lg-10">
+            <div class="card border-0">
+                <form autocomplete="off">
+                    <div class="card-header">
+                        <div class="mx-0 mb-0 row justify-content-sm-center justify-content-start px-1"> <input type="text" id="dp1" class="datepicker" placeholder="Click ICI et choisissez une date" name="date" size="20" readonly><span class="fa fa-calendar"></span> </div>
+                    </div>
+                    <div class="card-body p-3 p-sm-5">
+                        <div class="row text-center mx-0">
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">8:00 H</div>
+                            </div>
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">8:30 H</div>
+                            </div>
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">9:00 H</div>
+                            </div>
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">9:30 H</div>
+                            </div>
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">9:45 H</div>
+                            </div>
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">10:00 H</div>
+                            </div>
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">10:30 H</div>
+                            </div>
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">10:45 H</div>
+                            </div>
+                        </div>
+                        <div class="row text-center mx-0">
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">11:00 H</div>
+                            </div>
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">11:30 H</div>
+                            </div>
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">11:45 H</div>
+                            </div>
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">12:00 H</div>
+                            </div>
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">12:30 H</div>
+                            </div>
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">12:45 H</div>
+                            </div>
+                        </div>
+                        <div class="row text-center mx-0">
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">13:00 H</div>
+                            </div>
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">13:30 H</div>
+                            </div>
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">13:45 H</div>
+                            </div>
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">14:00 H</div>
+                            </div>
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">14:30 H</div>
+                            </div>
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">14:45 H</div>
+                            </div>
+                        </div>
+                        <div class="row text-center mx-0">
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">15:00 H</div>
+                            </div>
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">15:30 H</div>
+                            </div>
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">16:15 H</div>
+                            </div>
+                            <div class="col-md-2 col-4 my-1 px-2">
+                                <div class="cell py-1">16:00 H</div>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="text" name="nom" id="nom" class="datepicker1" placeholder="Nom :">
+                    <input type="text" name="Prénom" id="Prénom"  class="datepicker1" placeholder="Prénom :">
+                    <!-- // fonction a faire pour verif  si numéro es correcte -->
+                    <input type="text" name="phone" id="phone"  class="datepicker1" placeholder="N° Téléphone"> 
+                    <input type="submit" value="Envoyer"  id="Btn_Envoyer" onclick="recap()">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    <div data-aos="zoom-in-down" data-aos-duration="1000"  class=" container fondprésentation">
+        <!-- logo a gauche texte a droite , image de fond: devanture epicerie  -->
+        <div class="row p-3 justify-content-center">
+            <div  class="col-8 col-sm-6 col-md-6 col-lg-6 ">
+                <img  class="logo2" src="images/logomag.png" alt="logomag"><!--image panneau-->
+            </div> 
+            <div  class=" col-8 col-sm-8 col-md-6 col-lg-6 txtlivraison">
+                <h1>Qui sommes-nous ?</h1> <br>
+                Situé au coeur de sermaise notre épicerie vous accueil avec joie afin de garantir une multitude de produits indispensable a votre quotidien. Tous nos produits frais vienne directement du plus grand marché de France ainsi que quelques producteurs locaux
+            </div> 
+        </div>
+    </div> 
+    <div data-aos="flip-left" data-aos-duration="1000" class="horaires">
+        <ul class="liste">
+            <li>Lundi : FERMER</li>
+            <li>Mardi : 8h00-12h15 / 15h30- 19h00</li>
+            <li>Mercredi :8h00-12h15 / 16h00- 19h00</li>
+            <li>jeudi : 8h00-12h15 / 15h30- 19h00 </li>
+            <li>vendredi : 8h00-12h15 / 15h30- 19h00</li>
+            <li>samedi : 8h00-12h15 / 15h30- 19h00</li> 
+            <li>dimanche & jours fériés : 9h00-12h00</li>
+        </ul>
+    </div>
+
+<footer>
+    <div data-aos="flip-left" class="container foot"> 
+        <div class="row justify-content-center align-items-center ">
+            <div class="col-sm-8 col-md-8 col-lg-4 p-0">
+                <div class="imgmap m-3">
+                    <img src="images/map.png" alt="map" style="width: 100%;"> <!--plan-->
+                </div>
+            </div>
+            <div class="col-sm-8 col-md-7 col-lg-4 p-0">
+                <div class="container lien p-0">
+                            <div class="row justify-content-center m-4"> 
+                                <a href="https://www.facebook.com/epifleurs.surateau" class="iconbf" target="_blank">
+                                <div class="col-4 m-auto "> <!--icon FB-->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05 H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326 H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                    </svg>
+                                </div>
+                                </a>
+                            </div>    
+                            <div class="row justify-content-center m-4 mt-5">
+                                <div class="col-4"> <!--icon insta-->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            <div class="col-sm-12 col-md-7 col-lg-4 ">
+                <div class="container contact p-0" >
+                        <div class="row justify-content-center mb-3 align-items-center">
+                            <div class="col-4 titlecontact">contact</div>
+                        </div>
+                        <div class=" row justify-content-center mb-3 align-items-center">
+                            <div class="col-3 p-2 " >
+                                <img class="imgcontact " src="images/location-icon.png" alt="">
+                            </div>
+                            <div class="col-8 p-2 ">
+                                10 rue guy Renier , 45300 sermaises
+                            </div>
+                        </div>        
+                        <div class=" row justify-content-center mb-3 align-items-center">
+                            <div class="col-3 p-2 " >
+                                <img class="imgcontact " src="images/mobile-icon.png" alt="">
+                            </div>
+                            <div class="col-8 p-2">
+                                02.38.39.02.09 
+                            </div>
+                        </div>     
+                        <div class=" row justify-content-center mb-3 align-items-center ">
+                            <div class="col-3 p-2 " >
+                                <img class="imgcontact " src="images/email-icon.png" alt="">
+                            </div>
+                            <div class="col-8 p-2 ">
+                                <a href="mailto:ksurateau@gmail.com" id="lienMail">ksurateau@gmail.com</a>
+                            </div>
+                        </div>  
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+            
+</footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.js"></script> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="Epifleur.js"></script>
+
+
+</body>
+
+</html>
